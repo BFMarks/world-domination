@@ -50,10 +50,15 @@ module.exports.sockets = {
   // db: 'sails',
   // pass: '<redis auth password>',
 
-   host: process.env.REDIS_HOST,
-  port: process.env.REDIS_PORT,
-  user: process.env.REDIS_USER,
-  pass: process.env.REDIS_PASS,
+  host: 'ray.redistogo.com',
+  port: 10036,
+  db: 'redistogo',
+  pass: '73d734d15c5a62d2da745bd8d41731a0',
+
+  //  host: process.env.REDIS_HOST,
+  // port: process.env.REDIS_PORT,
+  // user: process.env.REDIS_USER,
+  // pass: process.env.REDIS_PASS,
 
 
 
